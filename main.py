@@ -100,10 +100,10 @@ def run_test_on_nwb_file(testfile: TestNwbFile):
                                 electrical_series_name=testfile.electrical_series_name,
                             )
         elif method == "remfile":
+            timer = time.time()
             rem_file = remfile.File(testfile.s3_url)
             with h5py.File(rem_file, "r") as h5py_file:
                 with pynwb.NWBHDF5IO(file=h5py_file, load_namespaces=True) as io:
-                    timer = time.time()
                     io.read()
                     elapsed = time.time() - timer
                     testfile.remfile_result.initial_load_time = elapsed
