@@ -1,0 +1,65 @@
+On dandihub
+===========
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 9.845886468887329
+  remfile: 6.27060866355896
+30sec sample read time:
+  fsspec: 9.034102201461792
+  remfile: 8.205223083496094
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.953127384185791
+  remfile: 6.190927267074585
+30sec sample read time:
+  fsspec: 7.843780279159546
+  remfile: 8.197534561157227
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.309565544128418
+  remfile: 6.013933420181274
+30sec sample read time:
+  fsspec: 7.479359865188599
+  remfile: 8.149081707000732
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.230067014694214
+  remfile: 6.112828016281128
+30sec sample read time:
+  fsspec: 7.578496694564819
+  remfile: 8.18184518814087
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.084893703460693
+  remfile: 6.085661172866821
+30sec sample read time:
+  fsspec: 7.477337837219238
+  remfile: 8.223806619644165
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.40080189704895
+  remfile: 6.22628116607666
+30sec sample read time:
+  fsspec: 8.206738233566284
+  remfile: 8.101545810699463
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 7.347515106201172
+  remfile: 6.073164224624634
+30sec sample read time:
+  fsspec: 7.696465492248535
+  remfile: 8.35304880142212

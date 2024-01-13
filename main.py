@@ -36,7 +36,7 @@ class TestNwbFile:
 @dataclass
 class TestResult:
     initial_load_time: Optional[float] = None  # seconds
-    sample_10sec_read_time: Optional[float] = None  # seconds
+    sample_30sec_read_time: Optional[float] = None  # seconds
 
 
 test_nwb_files = [
@@ -66,9 +66,9 @@ def main():
         print("Initial load time:")
         print(f"  fsspec: {test_nwb_file.fsspec_result.initial_load_time}")
         print(f"  remfile: {test_nwb_file.remfile_result.initial_load_time}")
-        print("10sec sample read time:")
-        print(f"  fsspec: {test_nwb_file.fsspec_result.sample_10sec_read_time}")
-        print(f"  remfile: {test_nwb_file.remfile_result.sample_10sec_read_time}")
+        print("30sec sample read time:")
+        print(f"  fsspec: {test_nwb_file.fsspec_result.sample_30sec_read_time}")
+        print(f"  remfile: {test_nwb_file.remfile_result.sample_30sec_read_time}")
         print("")
 
 
@@ -119,12 +119,12 @@ def run_further_timing_tests(
     nwbfile: pynwb.NWBFile, result: TestResult, *, electrical_series_name: str
 ):
     if electrical_series_name:
-        print(f'Reading 10sec sample of "{electrical_series_name}"')
+        print(f'Reading 30sec sample of "{electrical_series_name}"')
         timer = time.time()
-        nwbfile.acquisition[electrical_series_name].data[: 30000 * 10]
+        nwbfile.acquisition[electrical_series_name].data[: 30000 * 30]
         elapsed = time.time() - timer
-        print(f"Elapsed time for reading 10sec sample: {elapsed}")
-        result.sample_10sec_read_time = elapsed
+        print(f"Elapsed time for reading 30sec sample: {elapsed}")
+        result.sample_30sec_read_time = elapsed
 
 
 if __name__ == "__main__":

@@ -1,0 +1,38 @@
+On Jeremy's home network
+========================
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 37.63401675224304
+  remfile: 10.299677848815918
+30sec sample read time:
+  fsspec: 48.629605770111084
+  remfile: 60.6944534778595
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 32.307414531707764
+  remfile: 9.837872743606567
+30sec sample read time:
+  fsspec: 39.46430015563965
+  remfile: 53.45425820350647
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 26.10208010673523
+  remfile: 8.407361268997192
+30sec sample read time:
+  fsspec: 41.82032299041748
+  remfile: 53.37666034698486
+
+TRIAL
+000409/draft/sub-CSHL047/sub-CSHL047_ses-2d5f6d81-38c4-4bdc-ac3c-302ea4d5f46e_behavior+ecephys+image.nwb
+Initial load time:
+  fsspec: 52.86198568344116
+  remfile: 9.135026693344116
+30sec sample read time:
+  fsspec: 60.53634214401245
+  remfile: 60.26498317718506
